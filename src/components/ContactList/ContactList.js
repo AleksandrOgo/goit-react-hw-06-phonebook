@@ -5,7 +5,7 @@ import {
   List,
   NoContactsMessage,
 } from './ContactList.styled';
-import { deleteContact } from '../../redux/contactsSlice';
+import { deleteContact } from '../../redux/contactsSlice'
 import { getContacts, getFilter } from '../../redux/selectors';
 
 export const ContactList = () => {

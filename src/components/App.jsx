@@ -3,6 +3,7 @@ import { Application, FormTitle } from './App.styled';
 import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 
+
 // Зовнішня функція (передана в useState контактів) для отримання данних з local storage. Якщо там нічого немає - то рендер initial contacts
 // const getInitialContacts = () => {
 //   const savedContacts = localStorage.getItem('contacts');
